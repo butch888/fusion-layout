@@ -1,0 +1,195 @@
+@import url('./reset.css');
+.wrapper {
+  max-width: 1920px;
+  margin: 0 auto;
+  background-color: #EEEFF1;
+  font-family: Roboto;
+  /* border: 1px dashed black; */
+}
+
+/* header */
+.header {
+  max-width: 1150px;
+  border: 1px dashed red;
+  margin: 0 auto;
+  padding: 0 5px;
+  /* display: none; */
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0 130px 0;
+}
+
+.nav-list {
+  display: flex;
+  gap: 73px;
+}
+
+.nav-list__link {
+  text-decoration:none;
+  line-height: 26.25px;
+  color: #000000;
+  letter-spacing: 10%;
+}
+
+.nav-list__link--active {
+  color:  #34547A;
+  ;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 130px;
+}
+
+.header-content__img {
+  margin-top: 20px;
+}
+
+.header-content__item {
+  max-width: 540px;
+}
+
+.header-content__title {
+  font-size: 48px;
+  line-height: 78.75px;
+  margin-bottom: 30px;
+}
+
+.header-content__text {
+  line-height: 26.25px;
+  margin-bottom: 45px;
+  color: #727272;
+}
+
+.button {
+  width: 225px;
+  height: 65px;
+  background: #34547A;
+  color: #FFFFFF;
+  line-height: 26.25px;
+  cursor: pointer;
+}
+
+/* main */
+/* section about */
+.about {
+  background-color: #fff;
+}
+
+.about-container {
+  border: 1px dashed red;
+  max-width: 540px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 80px 0 70px 0;
+  /* border: 1px dashed red; */
+}
+
+.about-container__title {
+  font-size: 32px;
+  line-height: 37.5px;
+  padding-bottom: 50px;
+}
+
+.about-container__text {
+  color: #727272;
+  line-height: 25.26px;
+}
+
+/* main */
+/* section projects */
+.projects {
+  background: #34547A;
+  padding: 65px 0;
+}
+
+.projects-container {
+  border: 1px dashed red;
+  max-width: 1150px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+/* main */
+/* section myskills */
+.myskills {
+  background-color: #ffffff;
+}
+
+.myskills-container {
+  border: 1px dashed red;
+  display: grid;
+  grid-template-columns: repeat(2,  1fr);
+  gap: 100px;
+  padding: 80px 0;
+  max-width: 1150px;
+  margin: 0 auto;
+}
+
+.skills1 {
+  grid-area: 1/1;
+}
+
+.skills2 {
+  grid-area: 1/2 ;
+}
+
+.myskills-skills {
+  max-width: 445px;
+  padding-top: 80px;
+}
+
+.skills__title {
+  font-size: 32px;
+  line-height: 37.5px;
+  padding-bottom: 25px;
+}
+
+.skills-descriptions__text {
+  line-height: 26.25px;
+  padding: 10px 0;
+}
+
+.dual-color-line {
+  position: relative;
+  height:  4px; /* Высота линии */
+  background-color: #000;
+  width:  100%; /* Ширина линии */
+}
+
+.dual-color-line::before {
+  content: '';
+  position: absolute;
+  top:  0;
+  left:  0;
+  height:  100%;
+  width:  70%; /* Ширина первой части линии */
+  background-color: #34547A; /* Цвет первой части линии */
+}
+
+.dual-color-line::after {
+  content: '';
+  position: absolute;
+  top:  0;
+  right:  0;
+  height:  100%;
+  width:  30%; /* Ширина второй части линии */
+  background-color: #C4C4C4; /* Цвет второй части линии */
+}
+
+.myskills-photo img{
+  max-width: 555px;
+}
+
+/* main */
+/* section job */
+
+
