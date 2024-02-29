@@ -494,7 +494,9 @@
   }
 
   .galery__eye {
-    max-width: 150px;
+    max-width: 60px;
+    top: calc(50% - 40px);
+    left: calc(50% - 30px);
   }
 }
 
