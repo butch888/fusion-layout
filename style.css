@@ -221,7 +221,6 @@
 .job__image {
   width: 100%;
   height: 100%;
-  
   object-fit: cover;
 }
 
@@ -243,8 +242,9 @@
 .job__playbtn {
   display: block;
   position: absolute;
-  top: 245px;
-  left: 505px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   z-index: 10;
   cursor: pointer;
   opacity: 0.8;
@@ -488,8 +488,6 @@
 
 @media (max-width: 550px) {
   .job__playbtn {
-    top: 75px;
-    left: 175px;
     width: 60px;
   }
 
