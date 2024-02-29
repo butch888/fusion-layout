@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-  const imageContainer = document.querySelectorAll('.galery__image');
+  const imageContainer = document.querySelectorAll('.galery-img');
 
   imageContainer.forEach(function(container) {
 
@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const image = container.querySelector('img');
       image.style.filter = 'brightness(100%)';
       
-      const icon = container.querySelector('.galery-icon');
+      const icon = container.querySelector('.galery__eye');
       icon.style.opacity = '0';
     });
 
@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const image = container.querySelector('img');
       image.style.filter = 'brightness(50%)';
       
-      const icon = container.querySelector('.galery-icon');
+      const icon = container.querySelector('.galery__eye');
       icon.style.opacity = '1';
     });
     

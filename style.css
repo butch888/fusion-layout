@@ -268,10 +268,23 @@
   width: 100%;
   height: auto;
   max-width: 480px;
+  position: relative;
 }
 
 .galery__img {
   width: 100%;
+  transition: filter 0.3s ease;
+  filter: brightness(50%);
+}
+
+.galery__eye {
+  max-width: 300px;
+  position: absolute;
+  top: calc(50% - 50px);
+  left: calc(50% - 50px);
+  opacity: 1;
+  transition: opacity 0.3s ease;
+  z-index: 10;
 }
 
 /* order */
