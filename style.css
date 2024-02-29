@@ -262,24 +262,22 @@
 .galery-container {
   width: 100%;
   max-width: 1920px;
-  margin: 0 auto;
   background-color: #fff;
   padding: 30px 0;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto;
+  border-color: #0e1012;
 }
 .galery-img {
-  width: 100%;
-  height: auto;
-  max-width: 100%;
   position: relative;
 }
 
 .galery__img {
   width: 100%;
   transition: filter 0.3s ease;
-  filter: brightness(50%);
+  filter: brightness(40%);
+  margin-bottom: -3px;
 }
 
 .galery__eye {
