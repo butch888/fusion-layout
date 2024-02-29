@@ -492,6 +492,10 @@
     left: 175px;
     width: 60px;
   }
+
+  .galery__eye {
+    max-width: 150px;
+  }
 }
 
 
